@@ -1,6 +1,6 @@
 {
   "name": "electron-packager-plugin-non-proprietary-codecs-ffmpeg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Replaces the normal version of FFMPEG in electron with a version without proprietary codecs",
   "main": "dist/index.js",
   "scripts": {
