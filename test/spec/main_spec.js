@@ -28,4 +28,6 @@ const testPlatform = (platform) =>
 
 testPlatform('linux');
 testPlatform('darwin');
-testPlatform('win32');
+if (process.platform === 'win32') {
+  testPlatform('win32');
+}
