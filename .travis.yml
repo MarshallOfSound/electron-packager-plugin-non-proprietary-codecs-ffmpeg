@@ -3,8 +3,9 @@ os:
 
 language: node_js
 node_js:
-  - "4.4.0"
-  - "6.1.0"
+  - "4.6.1"
+  - "6.9.1"
+  - "7.0.0"
 
 script:
   - npm run test
